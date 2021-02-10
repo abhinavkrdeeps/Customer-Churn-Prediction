@@ -1,0 +1,49 @@
+<html>
+<body>
+    <h3>Customer Churn Prediction</h3>
+
+<div>
+  <form action="/predict" method="POST">
+    <label for="CustomerId">CustomerId</label>
+    <input type="text" id="CustomerId" name="CustomerId">
+    <br>
+    <label for="Surname">Surname</label>
+    <input type="text" id="Surname" name="Surname">
+    <br>
+    <label for="CreditScore">CreditScore</label>
+    <input type="number" id="CreditScore" name="CreditScore">
+    <br>
+    <label for="Geography">Geography(France/Spain/Germany)</label>
+    <input type="text" id="Geography" name="Geography">
+    <br>
+     <label for="Gender">Gender(Male/Female)</label>
+    <input type="text" id="Gender" name="Gender">
+    <br>
+     <label for="Age">Age</label>
+    <input type="number" id="Age" name="Age">
+    <br>
+     <label for="Tenure">Tenure</label>
+    <input type="number" id="Tenure" name="Tenure">
+    <br>
+     <label for="Balance">Balance</label>
+    <input type="number" id="Balance" name="Balance">
+    <br>
+     <label for="NumOfProducts">NumOfProducts</label>
+    <input type="number" id="NumOfProducts" name="NumOfProducts">
+    <br>
+     <label for="HasCrCard">HasCrCard(0 of no , 1 if yes)</label>
+    <input type="number" id="HasCrCard" name="HasCrCard">
+    <br>
+    <label for="IsActiveMember">IsActiveMember(0 of no , 1 if yes)</label>
+    <input type="number" id="IsActiveMember" name="IsActiveMember">
+    <br>
+    <label for="EstimatedSalary">EstimatedSalary</label>
+    <input type="number" id="EstimatedSalary" name="EstimatedSalary">
+    <br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
+
